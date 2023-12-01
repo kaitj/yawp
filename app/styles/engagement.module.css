@@ -26,8 +26,8 @@
 
 .confetti {
   z-index: 1;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   object-fit: cover;
   filter: brightness(0.5);
 }
@@ -72,8 +72,4 @@
 
 /* Mobile */
 @media (max-width: 700px) {
-}
-
-/* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1120px) {
 }

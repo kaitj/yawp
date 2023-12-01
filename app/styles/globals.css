@@ -35,7 +35,7 @@ body {
   /* Engagement */
   height: 100vh;
   width: 100vw;
-  background-image: url("../../public/photos/romcom.jpg");
+  background-image: url("../../public/photos/romcom-wide.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -51,5 +51,16 @@ body {
     height: 100vh;
     width: 100vw;
     background-color: rgba(0,0,0,0.6);
+  }
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  body {
+    background-image: url("../../public/photos/stare.jpg");
+
+    &::before {
+      background-color: rgba(0,0,0,0.8);
+    }
   }
 }
