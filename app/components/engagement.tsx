@@ -31,7 +31,10 @@ const EngagementComponent = () => {
         </Row>
         <br />
         <Button className={engagementStyles.btn}>
-          <a href="https://forms.gle/oDLw1G1DmDCs6CdY6" target="_blank">
+          <a
+            href="https://withjoy.com/laurensmith-and-jasonkai/rsvp"
+            target="_blank"
+          >
             RSVP
           </a>
         </Button>
