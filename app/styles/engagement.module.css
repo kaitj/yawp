@@ -14,6 +14,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10vh;
 }
 
 .confettiContainer {
@@ -54,7 +55,7 @@
 
 .btn, .btn a {
   z-index: 1;
-  padding: 1.5vw 1.5vh;
+  padding: 1vw 1.5vh;
   margin-top: 4vh;
   background-color: rgba(0,0,0,0);
   border-color: var(--font-fall-yellow) !important;
@@ -72,4 +73,17 @@
 
 /* Mobile */
 @media (max-width: 700px) {
+  .container {
+    width: 90vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+  }
+
+  .welcomeText{
+    margin-bottom: 25vh;
+  }
 }

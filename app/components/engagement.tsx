@@ -17,7 +17,9 @@ const EngagementComponent = () => {
       </div>
 
       <div className={engagementStyles.container}>
-        <Row className={engagementStyles.text}>
+        <Row
+          className={`${engagementStyles.text} ${engagementStyles.welcomeText}`}
+        >
           Please join us to celebrate the engagement of
         </Row>
         <Row className={engagementStyles.names}>Lauren & Jason</Row>
