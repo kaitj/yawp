@@ -26,7 +26,7 @@ const EngagementComponent = () => {
         <Row className={engagementStyles.text}>December 29, 2023</Row>
         <br />
         <Row className={engagementStyles.text}>
-          Evans Room @ Glenerin Inn & Spa <br />
+          Glenerin Inn & Spa @ 6:00pm <br />
           1695 The Collegeway, Mississauga, Ontario
         </Row>
         <br />
