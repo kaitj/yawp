@@ -30,6 +30,7 @@ const EngagementComponent = () => {
           1695 The Collegeway, Mississauga, Ontario
         </Row>
         <br />
+        <Row className={engagementStyles.text}>(Attire: Smart Casual)</Row>
         <Button className={engagementStyles.btn}>
           <a
             href="https://withjoy.com/laurensmith-and-jasonkai/rsvp"
