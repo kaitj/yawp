@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { afterNavigate } from '$app/navigation';
 	import { page } from '$app/state';
 	import { AppBar, TabAnchor, TabGroup } from '@skeletonlabs/skeleton';
 	import { Menu } from 'lucide-svelte';
@@ -9,14 +10,21 @@
 		isMenuOpen = !isMenuOpen;
 	}
 
+	let currentPath = page.url.pathname;
+
+	afterNavigate(({ to }) => {
+		if (to) {
+			currentPath = to.url.pathname;
+		}
+	});
+
 	const tabs = [
-		{ href: '/', label: 'Save the Date' },
-		// { href: '/', label: 'Welcome' },
+		{ href: '/', label: 'Home' },
 		// { href: '#', label: 'Wedding Party' },
 		// { href: '#', label: 'Story' },
 		// { href: '#', label: 'Schedule' },
-		{ href: '/travel', label: 'Travel' },
-		{ href: '/accommodations', label: 'Accommodations' }
+		{ href: '/accommodations', label: 'Accommodations' },
+		{ href: '/travel', label: 'Travel' }
 		// { href: '#', label: 'Q & A' }
 	];
 </script>
@@ -50,7 +58,7 @@
 	<nav class="list-nav p-2 md:p-4 text-tertiary-300 w-full overflow-x-auto">
 		<TabGroup
 			justify="justify-center"
-			active="text-tertiary-300"
+			active="text-tertiary-500"
 			hover="hover:text-tertiary-300"
 			flex="flex-1 lg:flex-none"
 			rounded=""
@@ -60,7 +68,7 @@
 			{#each tabs as tab}
 				<TabAnchor
 					href={tab.href}
-					selected={page.url.pathname === tab.href}
+					selected={currentPath === tab.href}
 					class="whitespace-nowrap uppercase">{tab.label}</TabAnchor
 				>
 			{/each}
@@ -70,12 +78,13 @@
 
 <!-- Mobile Navigation Menu -->
 {#if isMenuOpen}
-	<nav class="md:hidden flex flex-col p-2 text-tertiary-300 w-full rounded-lg space-y-2">
+	<nav class="md:hidden flex flex-col p-2 w-full rounded-lg space-y-2">
 		{#each tabs as tab}
 			<TabAnchor
 				href={tab.href}
-				selected={page.url.pathname === tab.href}
-				class="block w-full text-center p-3 rounded-md uppercase"
+				class="block w-full text-center p-3 rounded-md uppercase {currentPath === tab.href
+					? 'text-tertiary-500'
+					: 'text-tertiary-300'}"
 				on:click={toggleMenu}
 			>
 				{tab.label}
