@@ -60,7 +60,7 @@
 		</p>
 
 		<h2 class="h2 pt-8 md:text-4xl xs:text-md text-tertiary-300 text-center">
-			Keep an eye out for your formal invitation
+			More details and formal invitations to follow
 		</h2>
 	</div>
 </div>
