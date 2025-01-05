@@ -20,8 +20,7 @@
 
 	const tabs = [
 		{ href: '/', label: 'Home' },
-		// { href: '#', label: 'Wedding Party' },
-		// { href: '#', label: 'Story' },
+		{ href: '/story', label: 'Story' },
 		// { href: '#', label: 'Schedule' },
 		{ href: '/accommodations', label: 'Accommodations' },
 		{ href: '/travel', label: 'Travel' }
