@@ -5,7 +5,7 @@
 	</div>
 
 	<div class="w-full max-w-4xl mx-auto mb-8 text-black">
-		<h2 class="h2 p-6 md:text-4xl xs:text-md text-tertiary-300">To Mexico</h2>
+		<h2 class="h2 p-6 md:text-4xl xs:text-md text-tertiary-400">To Mexico</h2>
 		<div
 			class="w-full max-w-4xl grid grid-cols-1 md:grid-cols-[1fr_auto_1fr] gap-8 text-black text-center"
 		>
@@ -16,7 +16,7 @@
 			</div>
 
 			<!-- Vertical divider -->
-			<div class="hidden md:block w-px bg-tertiary-300"></div>
+			<div class="hidden md:block w-px bg-tertiary-400"></div>
 
 			<!-- Forms -->
 			<div class="md:text-lg xs:text-md my-auto">
@@ -30,7 +30,7 @@
 			Airport (CUN) due to the availablity of flights.
 		</p>
 
-		<h2 class="h2 p-6 md:text-4xl xs:text-md text-tertiary-300">To Resort</h2>
+		<h2 class="h2 p-6 md:text-4xl xs:text-md text-tertiary-400">To Resort</h2>
 		<p class="text-justify md:text-lg xs:text-md">
 			The resort is approximately 75 minutes from Cancún International Airport (CUN). There will be
 			one of two options for getting to the resort. If you arrived with the wedding party (from

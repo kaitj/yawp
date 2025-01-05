@@ -5,7 +5,7 @@
 	</div>
 
 	<div class="w-full max-w-4xl mx-auto mb-8 text-black">
-		<h2 class="h2 p-6 md:text-4xl xs:text-md text-tertiary-300">Our Story</h2>
+		<h2 class="h2 p-6 md:text-4xl xs:text-md text-tertiary-400">Our Story</h2>
 		<div class="text-justify">
 			<p>
 				Although Lauren and Jason grew up just 10 minutes apart and attended the same university for

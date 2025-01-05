@@ -102,7 +102,7 @@
 
 			<main class="mt-16 flex-1 h-full">
 				<div class="grid place-items-center">
-					<p class="text-center md:text-xl xs:text-md mb-6 text-tertiary-300">
+					<p class="text-center md:text-xl xs:text-md mb-6 text-tertiary-400">
 						Enter the password to continue
 					</p>
 					<div class="flex flex-col items-center">
@@ -110,11 +110,11 @@
 							type="password"
 							bind:value={password}
 							placeholder="Password"
-							class="mb-4 px-4 py-2 border border-tertiary-300 rounded focus:outline-none focus:ring-2 focus:ring-tertiary-400 md:text-xl xs:text-md text-tertiary-300 placeholder-tertiary-200"
+							class="mb-4 px-4 py-2 border border-tertiary-400 rounded focus:outline-none focus:ring-2 focus:ring-tertiary-400 md:text-xl xs:text-md text-tertiary-400 placeholder-tertiary-200"
 						/>
 						<button
 							on:click={handleLogin}
-							class="px-6 py-2 bg-tertiary-300 text-white md:text-xl xs:text-md font-semibold rounded hover:bg-tertiary-600"
+							class="px-6 py-2 bg-tertiary-400 text-white md:text-xl xs:text-md font-semibold rounded hover:bg-tertiary-600"
 						>
 							Login
 						</button>

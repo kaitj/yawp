@@ -23,8 +23,8 @@
 		{ href: '/story', label: 'Story' },
 		// { href: '#', label: 'Schedule' },
 		{ href: '/accommodations', label: 'Accommodations' },
-		{ href: '/travel', label: 'Travel' }
-		// { href: '#', label: 'Q & A' }
+		{ href: '/travel', label: 'Travel' },
+		{ href: '/faq', label: 'Q & A' }
 	];
 </script>
 
@@ -39,9 +39,9 @@
 	<svelte:fragment slot="lead">
 		<div></div>
 	</svelte:fragment>
-	<h1 class="h1 lg:text-6xl text-tertiary-300 text-center">Lauren & Jason</h1>
+	<h1 class="h1 lg:text-6xl text-tertiary-400 text-center">Lauren & Jason</h1>
 	<svelte:fragment slot="trail">
-		<button class="text-tertiary-300 p-2" on:click={toggleMenu} aria-label="Toggle navigation menu">
+		<button class="text-tertiary-400 p-2" on:click={toggleMenu} aria-label="Toggle navigation menu">
 			<Menu size={24} />
 		</button>
 	</svelte:fragment>
@@ -52,13 +52,13 @@
 	class="hidden md:flex flex-col items-center justify-center w-full p-6 lg:p-8"
 	background="bg-transparent"
 >
-	<h1 class="h1 xs:text-6xl lg:text-6xl text-tertiary-300 text-center mb-4">Lauren & Jason</h1>
+	<h1 class="h1 xs:text-6xl lg:text-6xl text-tertiary-400 text-center mb-4">Lauren & Jason</h1>
 
-	<nav class="list-nav p-2 md:p-4 text-tertiary-300 w-full overflow-x-auto">
+	<nav class="list-nav p-2 md:p-4 text-tertiary-400 w-full overflow-x-auto">
 		<TabGroup
 			justify="justify-center"
 			active="text-tertiary-500"
-			hover="hover:text-tertiary-300"
+			hover="hover:text-tertiary-400"
 			flex="flex-1 lg:flex-none"
 			rounded=""
 			border=""
@@ -83,7 +83,7 @@
 				href={tab.href}
 				class="block w-full text-center p-3 rounded-md uppercase {currentPath === tab.href
 					? 'text-tertiary-500'
-					: 'text-tertiary-300'}"
+					: 'text-tertiary-400'}"
 				on:click={toggleMenu}
 			>
 				{tab.label}

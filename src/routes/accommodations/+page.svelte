@@ -27,7 +27,7 @@
 	</div>
 
 	<div class="w-full max-w-4xl mx-auto mb-8 text-black text-center">
-		<h2 class="h2 p-6 md:text-4xl xs:text-md text-tertiary-300">Dreams Tulum</h2>
+		<h2 class="h2 p-6 md:text-4xl xs:text-md text-tertiary-400">Dreams Tulum</h2>
 		<p class="md:text-lg xs:text-md text-justify">
 			We have reserved a block of rooms at <strong>Dreams Tulum</strong> for our wedding guests.
 			Booking within this block ensures that you'll stay close to the wedding party and enjoy the
@@ -63,7 +63,7 @@
 			For booking information, please visit <a
 				target="_blank"
 				href="#"
-				class="underline text-tertiary-500 hover:text-tertiary-300"
+				class="underline text-tertiary-500 hover:text-tertiary-400"
 				rel="noopener noreferrer">[Booking Link]</a
 			>.
 		</p>
