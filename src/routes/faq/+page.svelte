@@ -1,5 +1,26 @@
 <script lang="ts">
-	const faqs = [{ question: 'What questions do I have?', answer: 'None -- too smart!' }];
+	const faqs = [
+		{
+			question: 'Do I have to put a deposit by the deadline?',
+			answer:
+				'We strongly encourage our guests to place their deposit to secure their flights and accommodations at preferred prices. After the deadline, we cannot guarantee room availability.'
+		},
+		{
+			question: 'Can I bring a guest?',
+			answer:
+				'Unfortunately our wedding venue has limited capacity and we will not be able to accommodate additional guests in our celebrations. Please review your invitations for indications of additional guests.'
+		},
+		{
+			question: 'Are children allowed at the wedding?',
+			answer:
+				'Although we love your little ones, we have decided to limit our wedding to our adult guests with a few exceptions - please review your invitations and reach out if you have any questions!'
+		},
+		{
+			question: 'Do I need a passport?',
+			answer:
+				'Yes! As you are traveling internationally you do need a passport valid with at least 6+ months past your travel dates.'
+		}
+	];
 </script>
 
 <div class="flex flex-col text-center justify-center items-center">
@@ -10,9 +31,9 @@
 
 	<div class="w-full max-w-4xl mx-auto mb-8 text-black">
 		<h2 class="h2 p-6 md:text-4xl xs:text-md text-tertiary-400">Have questions?</h2>
-		<ul class="text-left">
+		<ul class="text-left md:text-lg xs:text-md">
 			{#each faqs as faq}
-				<li>
+				<li class="mb-6">
 					<strong>{faq.question}</strong>
 					<br />
 					{faq.answer}
