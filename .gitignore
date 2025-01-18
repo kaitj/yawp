@@ -22,3 +22,5 @@ vite.config.ts.timestamp-*
 
 # Misc
 .deprecated/
+.vscode/
+.notes

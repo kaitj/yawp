@@ -1,3 +1,7 @@
+<script>
+	import Agent from '$lib/components/Travel/Agent.svelte';
+</script>
+
 <div class="flex flex-col text-center justify-center items-center">
 	<!-- Center image -->
 	<div class="w-full max-w-2xl mx-auto mb-8">
@@ -53,10 +57,7 @@
 			>
 				touch with us</a
 			>
-			or reach out to our
-			<a href="mailto:fake@email.com" class="underline text-tertiary-500 hover:text-tertiary-400"
-				>travel agent
-			</a>!
+			or reach out to our <Agent />
 		</p>
 
 		<h2 class="h2 pt-8 md:text-4xl xs:text-md text-tertiary-400 text-center">

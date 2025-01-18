@@ -1,3 +1,7 @@
+<script lang="ts">
+	import Agent from '$lib/components/Travel/Agent.svelte';
+</script>
+
 <div class="flex flex-col text-center justify-center items-center">
 	<!-- Center image -->
 	<div class="w-full max-w-2xl mb-8">
@@ -9,10 +13,14 @@
 		<div
 			class="w-full max-w-4xl grid grid-cols-1 md:grid-cols-[1fr_auto_1fr] gap-8 text-black text-center"
 		>
-			<!-- Details -->
+			<!-- Details (need to be reworded-->
 			<div class="md:text-lg xs:text-md">
-				<h3>From Toronto</h3>
-				<p class="text-left">[DETAILS]</p>
+				<h3 class="mb-4">From Toronto</h3>
+				<p class="text-justify">
+					We have arranged round-trip flights for our guests traveling from Pearson International
+					Airport (YYZ) to Cancún International Airport (CUN) with Air Transat. This seat (and
+					accommodation) is guaranteed with your deposit.
+				</p>
 			</div>
 
 			<!-- Vertical divider -->
@@ -20,22 +28,23 @@
 
 			<!-- Forms -->
 			<div class="md:text-lg xs:text-md my-auto">
-				<h3>From Elsewhere</h3>
-				<p class="text-left">[DETAILS]</p>
+				<h3 class="mb-4">From Elsewhere</h3>
+				<p class="text-justify">
+					For guests traveling from outside of Toronto, you have the option to <strong
+						>(1) fly to Toronto and travel with the wedding party</strong
+					>
+					or <strong>(2) arrange your own flights and book room-only</strong>. For either option,
+					please contact our <Agent />.
+				</p>
 			</div>
 		</div>
 		<br />
-		<p class="text-justify md:text-lg xs:text-md">
-			While there is an airport in Tulum, it is <strong>recommended</strong> to fly into Cancún International
-			Airport (CUN) due to the availablity of flights.
-		</p>
 
 		<h2 class="h2 p-6 md:text-4xl xs:text-md text-tertiary-400">To Resort</h2>
 		<p class="text-justify md:text-lg xs:text-md">
-			The resort is approximately 75 minutes from Cancún International Airport (CUN). There will be
-			one of two options for getting to the resort. If you arrived with the wedding party (from
-			Toronto), a bus for the wedding party will be waiting! If you arrived from elsewhere, a
-			shuttle transfer will be arranged!
+			The resort is approximately 75 minutes from Cancún International Airport (CUN). If you're
+			traveling from Toronto, a transfer to the resort has already been arranged. If you're flying
+			in from somewhere else, a transfer can be arranged with our <Agent />.
 		</p>
 	</div>
 </div>
