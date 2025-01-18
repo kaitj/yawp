@@ -6,7 +6,8 @@
 			description: [
 				'One king-sized bed',
 				'Private, furnished balcony or terrace',
-				'Up to 3 guests (adults + children), max of 2 adults'
+				'Up to 3 guests (adults + children), max of 2 adults',
+				'Adult-only option available'
 			]
 		},
 		{
@@ -15,7 +16,8 @@
 			description: [
 				'Two double beds',
 				'Private, furnished balcony or terrace',
-				'Up to 4 guests (adults + children), max of 3 adults'
+				'Up to 4 guests (adults + children), max of 3 adults',
+				'Adult-only option available'
 			]
 		}
 	];
@@ -56,7 +58,7 @@
 			{/each}
 		</section>
 		<p class="text-left">
-			<em>*Room upgrades available</em>
+			<em>*Room upgrades available, subject to availability</em>
 		</p>
 		<br />
 		<p class="md:text-lg xs:text-md text-justify">
