@@ -6,14 +6,14 @@
 				'We strongly encourage our guests to place their deposit to secure their flights and accommodations at preferred prices. After the deadline, we cannot guarantee room availability.'
 		},
 		{
-			question: 'Can I bring a guest?',
+			question: 'Can I bring a plus one?',
 			answer:
 				'Unfortunately our wedding venue has limited capacity and we will not be able to accommodate additional guests in our celebrations. Please review your invitations for indications of additional guests.'
 		},
 		{
-			question: 'Are children allowed at the wedding?',
+			question: 'Is there anything that is not included?',
 			answer:
-				'Although we love your little ones, we have decided to limit our wedding to our adult guests with a few exceptions - please review your invitations and reach out if you have any questions!'
+				'Dreams Tulum is an all-inclusive resort - all food and drinks are included in your booking. Although tips are technically included, you will want to bring some small bills for the staff taking care of you throughout your stay. If you are interested in spa treatments or excursions around the area, you may book them at additional cost through the resort.'
 		},
 		{
 			question: 'Do I need a passport?',

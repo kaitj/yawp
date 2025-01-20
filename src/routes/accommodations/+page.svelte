@@ -35,9 +35,9 @@
 			Booking within this block ensures that you'll stay close to the wedding party and enjoy the
 			convenience of being in the heart of the celebration! To secure your spot in the room block,
 			please book by
-			<strong>[Reservation Deadline Date]</strong> for our promotional rates. After this date, the block
-			will be released, and rooms will be subject to availability. You’re still welcome to book a room
-			at the resort after the deadline, but we cannot guarantee you'll stay near the wedding party.
+			<strong>March 31, 2025</strong> for our promotional rates. After this date, the block will be released,
+			and rooms will be subject to availability. You’re still welcome to book a room at the resort after
+			the deadline, but we cannot guarantee you'll stay near the wedding party.
 		</p>
 		<br />
 		<section class="grid grid-cols-1 md:grid-cols-2 gap-4">
