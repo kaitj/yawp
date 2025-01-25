@@ -43,8 +43,8 @@
 		<h2 class="h2 p-6 md:text-4xl xs:text-md text-tertiary-400">To Resort</h2>
 		<p class="text-justify md:text-lg xs:text-md">
 			The resort is approximately 75 minutes from Cancún International Airport (CUN). If you're
-			traveling from Toronto, a transfer to the resort has already been arranged. If you're flying
-			in from somewhere else, a transfer can be arranged with our <Agent />.
+			traveling from Toronto, round-trip transfers have already been arranged. If you're flying in
+			from somewhere else, round-trip transfers can be arranged with our <Agent />.
 		</p>
 	</div>
 </div>
