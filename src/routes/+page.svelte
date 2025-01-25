@@ -22,7 +22,7 @@
 		<div class="md:text-lg xs:text-md text-center">
 			<p>
 				Reserve your spot and take advantage of the early-birds rates with a <strong
-					>$250 deposit per person</strong
+					>$250 CAD deposit per person</strong
 				>, ensuring your ticket and accommodations for an unforgettable week.
 			</p>
 		</div>

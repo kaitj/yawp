@@ -3,7 +3,7 @@
 		{
 			question: 'Do I have to put a deposit by the deadline?',
 			answer:
-				'We strongly encourage our guests to place their deposit to secure their flights and accommodations at preferred prices. After the deadline, we cannot guarantee room availability.'
+				'We strongly encourage our guests to place their deposit by April 15, 2025 to secure their flights and accommodations at preferred prices. After this date, we cannot guarantee room availability or preferred prices.'
 		},
 		{
 			question: 'Can I bring a plus one?',

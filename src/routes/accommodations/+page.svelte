@@ -35,7 +35,7 @@
 			Booking within this block ensures that you'll stay close to the wedding party and enjoy the
 			convenience of being in the heart of the celebration! To secure your spot in the room block,
 			please book by
-			<strong>March 31, 2025</strong> for our promotional rates. After this date, the block will be released,
+			<strong>April 15, 2025</strong> for our promotional rates. After this date, the block will be released,
 			and rooms will be subject to availability. You’re still welcome to book a room at the resort after
 			the deadline, but we cannot guarantee you'll stay near the wedding party.
 		</p>
@@ -46,7 +46,7 @@
 					<div class="card-header h-full w-full bg-primary-400 rounded-t-xl">
 						<img src={room.image} alt={room.type} class="object-fit h-full w-full" />
 					</div>
-					<div class="card-body relative min-h-[200px] px-4 bg-primary-400 rounded-b-xl">
+					<div class="card-body relative min-h-[230px] px-4 bg-primary-400 rounded-b-xl">
 						<h3 class="mt-4 md:text-lg xs:text-md">{room.type}</h3>
 						<ul class="list-disc pl-8 mt-2 text-left md:text-lg xs:text-md">
 							{#each room.description as info}
@@ -62,11 +62,11 @@
 		</p>
 		<br />
 		<p class="md:text-lg xs:text-md text-justify">
-			For booking information, please visit <a
+			To RSVP, click <a
 				target="_blank"
-				href="#"
+				href="https://withjoy.com/laurensmith-and-jasonkai/rsvp"
 				class="underline text-tertiary-500 hover:text-tertiary-400"
-				rel="noopener noreferrer">[Booking Link]</a
+				rel="noopener noreferrer">here</a
 			>.
 		</p>
 	</div>
