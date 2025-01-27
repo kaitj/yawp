@@ -46,7 +46,7 @@
 					<div class="card-header h-full w-full bg-primary-400 rounded-t-xl">
 						<img src={room.image} alt={room.type} class="object-fit h-full w-full" />
 					</div>
-					<div class="card-body relative min-h-[230px] px-4 bg-primary-400 rounded-b-xl">
+					<div class="card-body relative px-4 pb-4 bg-primary-400 rounded-b-xl">
 						<h3 class="mt-4 md:text-lg xs:text-md">{room.type}</h3>
 						<ul class="list-disc pl-8 mt-2 text-left md:text-lg xs:text-md">
 							{#each room.description as info}
@@ -62,12 +62,12 @@
 		</p>
 		<br />
 		<p class="md:text-lg xs:text-md text-justify">
-			To RSVP, click <a
+			Complete the following <a
 				target="_blank"
 				href="https://withjoy.com/laurensmith-and-jasonkai/rsvp"
 				class="underline text-tertiary-500 hover:text-tertiary-400"
-				rel="noopener noreferrer">here</a
-			>.
+				rel="noopener noreferrer">form</a
+			> - which will be sent to our travel agent, who will reach out with a quote!
 		</p>
 	</div>
 </div>

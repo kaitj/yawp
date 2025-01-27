@@ -21,7 +21,7 @@
 		<!-- Details -->
 		<div class="md:text-lg xs:text-md text-center">
 			<p>
-				Reserve your spot and take advantage of the early-birds rates with a <strong
+				Reserve your spot and take advantage of the early-bird rates with a <strong
 					>$250 CAD deposit per person</strong
 				>, ensuring your ticket and accommodations for an unforgettable week.
 			</p>
@@ -47,9 +47,9 @@
 				target="_blank"
 				href="https://withjoy.com/laurensmith-and-jasonkai/rsvp"
 				class="underline text-tertiary-500 hover:text-tertiary-400"
-				rel="noopener noreferrer">RSVP</a
+				rel="noopener noreferrer">complete the form</a
 			>
-			at your earliest convenience to take advantage of the promotional rates. If you have any questions,
+			at your earliest convenience to receive a quote with the promotional rates. If you have any questions,
 			please do not hesitate to get in
 			<a
 				href="mailto:lauren.jason.tietheknot@gmail.com"
