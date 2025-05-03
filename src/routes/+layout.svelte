@@ -1,12 +1,12 @@
 <script lang="ts">
-	import Banner from '$lib/components/Navbar/Banner.svelte';
-	import Navbar from '$lib/components/Navbar/Navbar.svelte';
-	import { authStore } from '$lib/stores/auth';
-	import '../app.postcss';
-	// Floating UI for Popups
-	import { arrow, autoUpdate, computePosition, flip, offset, shift } from '@floating-ui/dom';
-	import { storePopup } from '@skeletonlabs/skeleton';
-	import { onMount } from 'svelte';
+	import Banner from '$lib/components/Navbar/Banner.svelte'
+	import Navbar from '$lib/components/Navbar/Navbar.svelte'
+	import { authStore } from '$lib/stores/auth'
+	import '../app.postcss'
+// Floating UI for Popups
+	import { arrow, autoUpdate, computePosition, flip, offset, shift } from '@floating-ui/dom'
+	import { storePopup } from '@skeletonlabs/skeleton'
+	import { onMount } from 'svelte'
 
 	storePopup.set({ computePosition, autoUpdate, flip, shift, offset, arrow });
 
@@ -79,7 +79,7 @@
 	style="background-image: url('{currentBackground}'); background-size: cover; background-position: center;"
 	aria-label="Background"
 >
-	<div class="absolute inset-0 bg-black/40 backdrop-blue-sm" />
+	<div class="absolute inset-0 bg-black/40 backdrop-blue-sm"></div>
 </div>
 
 <!-- Main content area -->
