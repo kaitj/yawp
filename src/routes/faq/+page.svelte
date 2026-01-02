@@ -13,7 +13,7 @@
 		{
 			question: 'Do I need to bring a gift?',
 			answer:
-				'Your presence is truly the greatest gift to us. We know that traveling for our destination wedding takes time and expense, so please do not feel any obligation to bring a gift. If you do wish to honour us with one, a contribution to our <a href="https://withjoy.com/laurensmith-and-jasonkai/registry" class="underline text-tertiary-500 hover:text-green-400" target="_blank" rel="noopener noreferrer">honeymoon fund</a> would be warmly appreciated, but your presence is more than enough.'
+				'We know that traveling for our destination wedding takes time and expense, so please do not feel any obligation to bring a gift. If you do wish to honour us with one, a contribution to our <a href="https://withjoy.com/laurensmith-and-jasonkai/registry" class="underline text-tertiary-500 hover:text-green-400" target="_blank" rel="noopener noreferrer">honeymoon fund</a> would be warmly appreciated.'
 		},
 		{
 			question: 'Do I need a passport?',
@@ -31,7 +31,7 @@
 <div class="flex flex-col text-center justify-center items-center">
 	<!-- Center image -->
 	<div class="w-full max-w-2xl mb-8">
-		<img src="/images/faq/finn_head.jpg" alt="Finn with cocked head" class="w-4/5 mx-auto" />
+		<img src="/images/faq/finn_head.jpg" alt="Finn with cocked head" class="w-4/5 mx-auto rounded-lg border-2 border-green-700" />
 	</div>
 
 	<div class="w-full max-w-4xl mx-auto mb-8 text-black">

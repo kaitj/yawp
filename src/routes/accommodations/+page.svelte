@@ -25,7 +25,7 @@
 
 <div class="flex flex-col justify-center items-center">
 	<div class="w-full max-w-2xl mx-auto mb-8">
-		<img src="/images/accommodations/dreams-tulum.webp" alt="Dreams Tulum" />
+		<img src="/images/accommodations/dreams-tulum.webp" alt="Dreams Tulum" class="rounded-lg border-2 border-green-700"/>
 	</div>
 
 	<div class="w-full max-w-4xl mx-auto mb-8 text-black text-center">

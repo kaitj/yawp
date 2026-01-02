@@ -37,7 +37,7 @@
 <div class="flex flex-col text-center justify-center items-center">
 	<!-- Center image -->
 	<div class="w-full max-w-2xl mx-auto mb-8">
-		<img src="/images/save-the-date.jpg" alt="Save the date" />
+		<img src="/images/save-the-date.jpg" alt="Portugal" class="rounded-lg border-2 border-green-700"/>
 	</div>
 
 	<div class="w-full max-w-4xl mx-auto mb-8 text-black">
