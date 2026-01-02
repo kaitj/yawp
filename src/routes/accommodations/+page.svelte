@@ -32,11 +32,11 @@
 		<h2 class="h2 p-6 md:text-4xl xs:text-md text-tertiary-400">Dreams Tulum</h2>
 		<section class="grid grid-cols-1 md:grid-cols-2 gap-4">
 			{#each rooms as room}
-				<div class="card flex flex-col h-full">
-					<div class="card-header h-full w-full bg-primary-400 rounded-t-xl">
+				<div class="card flex flex-col h-full text-white">
+					<div class="card-header h-full w-full bg-green-700 rounded-t-xl">
 						<img src={room.image} alt={room.type} class="object-fit h-full w-full" />
 					</div>
-					<div class="card-body relative px-4 pb-4 bg-primary-400 rounded-b-xl">
+					<div class="card-body relative px-4 pb-4 bg-green-700 rounded-b-xl">
 						<h3 class="mt-4 md:text-lg xs:text-md">{room.type}</h3>
 						<ul class="list-disc pl-8 mt-2 text-left md:text-lg xs:text-md">
 							{#each room.description as info}
@@ -55,7 +55,7 @@
 			Complete the following <a
 				target="_blank"
 				href="https://withjoy.com/laurensmith-and-jasonkai/rsvp"
-				class="underline text-tertiary-500 hover:text-tertiary-400"
+				class="underline text-tertiary-500 hover:text-green-400"
 				rel="noopener noreferrer">form</a
 			> - which will be sent to our travel agent, who will reach out with a quote!
 		</p>

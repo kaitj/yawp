@@ -49,7 +49,7 @@
 	</div>
 
 	<!-- Two column section -->
-	<div class="md:text-lg xs:text-md my-auto text-center text-black">
+	<div class="md:text-lg xs:text-md my-auto text-center text-green-700">
 		<div class="flex gap-6 justify-center text-center">
 			{#each Object.entries(timeLeft) as [label, value]}
 				<div class="flex flex-col">
@@ -74,14 +74,14 @@
 			Please <a
 				target="_blank"
 				href="https://withjoy.com/laurensmith-and-jasonkai/rsvp"
-				class="underline text-tertiary-500 hover:text-tertiary-400"
+				class="underline text-tertiary-500 hover:text-green-400"
 				rel="noopener noreferrer">complete the form</a
 			>
 			at your earliest convenience to receive a quote or if you have any questions,
 			please do not hesitate to get in
 			<a
 				href="mailto:lauren.jason.tietheknot@gmail.com"
-				class="underline text-tertiary-500 hover:text-tertiary-400"
+				class="underline text-tertiary-500 hover:text-green-400"
 			>
 				touch with us</a
 			>

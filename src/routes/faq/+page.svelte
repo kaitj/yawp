@@ -13,7 +13,7 @@
 		{
 			question: 'Do I need to bring a gift?',
 			answer:
-				'Your presence is truly the greatest gift to us. We know that traveling for our destination wedding takes time and expense, so please do not feel any obligation to bring a gift. If you do wish to honour us with one, a contribution to our <a href="https://withjoy.com/laurensmith-and-jasonkai/registry" class="underline text-tertiary-500 hover:text-tertiary-400" target="_blank" rel="noopener noreferrer">honeymoon fund</a> would be warmly appreciated, but your presence is more than enough.'
+				'Your presence is truly the greatest gift to us. We know that traveling for our destination wedding takes time and expense, so please do not feel any obligation to bring a gift. If you do wish to honour us with one, a contribution to our <a href="https://withjoy.com/laurensmith-and-jasonkai/registry" class="underline text-tertiary-500 hover:text-green-400" target="_blank" rel="noopener noreferrer">honeymoon fund</a> would be warmly appreciated, but your presence is more than enough.'
 		},
 		{
 			question: 'Do I need a passport?',
@@ -23,7 +23,7 @@
 		{
 			question: 'What about transportation to the resort?',
 			answer:
-				'We have arranged round-trip airport transfers for all our guests booking through our room block! Other travel arrangements can also be made through our <a href="mailto:sstirling@destinationweddings.com" class="underline text-tertiary-500 hover:text-tertiary-400">travel agent</a> if you booked outside of the room block.'
+				'We have arranged round-trip airport transfers for all our guests booking through our room block! Other travel arrangements can also be made through our <a href="mailto:sstirling@destinationweddings.com" class="underline text-tertiary-500 hover:text-green-400">travel agent</a> if you booked outside of the room block.'
 		},
 	];
 </script>
@@ -39,7 +39,7 @@
 		<ul class="text-left md:text-lg xs:text-md">
 			{#each faqs as faq}
 				<li class="mb-6">
-					<strong>{faq.question}</strong>
+					<strong class="text-green-700">{faq.question}</strong>
 					<br />
 					{@html faq.answer}
 				</li>

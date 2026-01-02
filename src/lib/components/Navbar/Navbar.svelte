@@ -1,7 +1,7 @@
 <script lang="ts">
-	import { afterNavigate } from '$app/navigation';
-	import { AppBar, TabAnchor, TabGroup } from '@skeletonlabs/skeleton';
-	import { Menu } from 'lucide-svelte';
+	import { afterNavigate } from '$app/navigation'
+	import { AppBar, TabAnchor, TabGroup } from '@skeletonlabs/skeleton'
+	import { Menu } from 'lucide-svelte'
 
 	let isMenuOpen = false;
 
@@ -19,6 +19,7 @@
 
 	const tabs = [
 		{ href: '/', label: 'Home' },
+		{ href: '/schedule', label: 'Schedule' },
 		{ href: '/story', label: 'Story' },
 		{ href: '/accommodations', label: 'Accommodations' },
 		{ href: '/travel', label: 'Travel' },
@@ -55,8 +56,8 @@
 	<nav class="list-nav p-2 md:p-4 text-tertiary-400 w-full overflow-x-auto">
 		<TabGroup
 			justify="justify-center"
-			active="text-tertiary-500"
-			hover="hover:text-tertiary-400"
+			active="text-green-700"
+			hover="hover:text-green-400"
 			flex="flex-1 lg:flex-none"
 			rounded=""
 			border=""

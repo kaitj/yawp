@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Agent from '$lib/components/Travel/Agent.svelte';
+	import Agent from '$lib/components/Travel/Agent.svelte'
 </script>
 
 <div class="flex flex-col text-center justify-center items-center">
@@ -15,7 +15,7 @@
 		>
 			<!-- Details (need to be reworded-->
 			<div class="md:text-lg xs:text-md">
-				<h3 class="mb-4">From Toronto</h3>
+				<h3 class="mb-4 text-green-700">From Toronto</h3>
 				<p class="text-justify">
 					We have arranged round-trip flights for our guests traveling from Pearson International
 					Airport (YYZ) to Cancún International Airport (CUN) with Air Transat. This seat (and
@@ -28,7 +28,7 @@
 
 			<!-- Forms -->
 			<div class="md:text-lg xs:text-md my-auto">
-				<h3 class="mb-4">From Elsewhere</h3>
+				<h3 class="mb-4 text-green-700">From Elsewhere</h3>
 				<p class="text-justify">
 					For guests traveling from outside of Toronto, you have the option to <strong
 						>(1) fly to Toronto and travel with the wedding party</strong
