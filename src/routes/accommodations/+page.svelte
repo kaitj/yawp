@@ -30,16 +30,6 @@
 
 	<div class="w-full max-w-4xl mx-auto mb-8 text-black text-center">
 		<h2 class="h2 p-6 md:text-4xl xs:text-md text-tertiary-400">Dreams Tulum</h2>
-		<p class="md:text-lg xs:text-md text-justify">
-			We have reserved a block of rooms at <strong>Dreams Tulum</strong> for our wedding guests.
-			Booking within this block ensures that you'll stay close to the wedding party and enjoy the
-			convenience of being in the heart of the celebration! To secure your spot in the room block,
-			please book by
-			<strong>April 15, 2025</strong> for our promotional rates. After this date, the block will be released,
-			and rooms will be subject to availability. You’re still welcome to book a room at the resort after
-			the deadline, but we cannot guarantee you'll stay near the wedding party.
-		</p>
-		<br />
 		<section class="grid grid-cols-1 md:grid-cols-2 gap-4">
 			{#each rooms as room}
 				<div class="card flex flex-col h-full">

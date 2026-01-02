@@ -1,25 +1,30 @@
 <script lang="ts">
 	const faqs = [
 		{
-			question: 'Do I have to put a deposit by the deadline?',
+			question: 'What is the dress code?',
 			answer:
-				'We strongly encourage our guests to place their deposit by April 15, 2025 to secure their flights and accommodations at preferred prices. After this date, we cannot guarantee room availability or preferred prices.'
+				'We want you to be comfortable! For the wedding ceremony and reception, the attire is Beach Cocktail. According to GPT, this means "dress like you\'re going to a classy party that happens to be near sand - think cocktail hour with a sea breeze, not margaritas after snorkeling."'
 		},
 		{
-			question: 'Can I bring a plus one?',
+			question: 'Can I bring a guest?',
 			answer:
-				'Unfortunately our wedding venue has limited capacity and we will not be able to accommodate additional guests in our celebrations. Please review your invitations for indications of additional guests.'
+				'Due to venue capacity at the resort, we can only accommodate guests named on your invitation. Thank you for understanding!'
 		},
 		{
-			question: 'Is there anything that is not included?',
+			question: 'Do I need to bring a gift?',
 			answer:
-				'Dreams Tulum is an all-inclusive resort - all food and drinks are included in your booking. Although tips are technically included, you will want to bring some small bills for the staff taking care of you throughout your stay. If you are interested in spa treatments or excursions around the area, you may book them at additional cost through the resort.'
+				'Your presence is truly the greatest gift to us. We know that traveling for our destination wedding takes time and expense, so please do not feel any obligation to bring a gift. If you do wish to honour us with one, a contribution to our <a href="https://withjoy.com/laurensmith-and-jasonkai/registry" class="underline text-tertiary-500 hover:text-tertiary-400" target="_blank" rel="noopener noreferrer">honeymoon fund</a> would be warmly appreciated, but your presence is more than enough.'
 		},
 		{
 			question: 'Do I need a passport?',
 			answer:
-				'Yes! As you are traveling internationally you do need a passport valid with at least 6+ months past your travel dates.'
-		}
+				'A valid passport is required for travel to Mexico. Please check your passport expiration dates, as they must be valid for at least 6 months past your travel dates. If you need to renew, please do so as soon as possible.'
+		},
+		{
+			question: 'What about transportation to the resort?',
+			answer:
+				'We have arranged round-trip airport transfers for all our guests booking through our room block! Other travel arrangements can also be made through our <a href="mailto:sstirling@destinationweddings.com" class="underline text-tertiary-500 hover:text-tertiary-400">travel agent</a> if you booked outside of the room block.'
+		},
 	];
 </script>
 
@@ -36,7 +41,7 @@
 				<li class="mb-6">
 					<strong>{faq.question}</strong>
 					<br />
-					{faq.answer}
+					{@html faq.answer}
 				</li>
 			{/each}
 		</ul>
