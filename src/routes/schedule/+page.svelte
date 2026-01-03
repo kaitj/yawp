@@ -7,35 +7,39 @@
         location: string;
         description: string;
         attire?: string;
+		image?: string;
     }
 
     	const events: Event[] = [
 		{
 			day: 'Saturday',
 			date: 'April 18, 2026',
-			time: "TBA", // '3:00 PM',
+			time: '3:00 PM',
 			name: 'Wedding Ceremony',
-			location: 'TBA', // 'Beach',
-			description: '...',
-			attire: 'Beach Cocktail'
+			location: 'Beach',
+			description: 'Celebrate with us right on the sand, with ocean breezes, and ocean views.',
+			attire: 'Beach Cocktail',
+			image: '/images/schedule/beach.jpg'
 		},
 		{
 			day: 'Saturday',
 			date: 'April 18, 2026',
-			time: 'TBA', // '5:30 PM',
+			time: '5:30 PM',
 			name: 'Cocktail Hour',
-			location: 'TBA', // 'Cenoté Terrace',
-			description: '...',
-			attire: 'Beach Cocktail'
+			location: 'Cenoté Terrace',
+			description: 'Overlooking a natural cenoté and wrapped in lush greenery, this peaceful terrace sets the tone for the evening—an inviting place to mingle and enjoy a drink.',
+			attire: 'Beach Cocktail',
+			image: '/images/schedule/cenote_terrace.jpeg'
 		},
 		{
 			day: 'Saturday',
 			date: 'April 18, 2026',
-			time: 'TBA', // '6:30 PM',
+			time: '6:30 PM',
 			name: 'Reception',
-			location: 'TBA', // 'Secret Garden',
-			description: '...',
-			attire: 'Beach Cocktail'
+			location: 'Secret Garden',
+			description: 'Enjoy an evening in a hidden garden filled with tropical plants, soft lighting, and a cozy, intimate feel.',
+			attire: 'Beach Cocktail',
+			image: '/images/schedule/secret_garden.jpg'
 		}
 	];
 </script>
@@ -65,6 +69,9 @@
 					<!-- Timeline dot -->
 					<div class="md:ml-8 bg-green-700 rounded-lg shadow-md p-5 text-left text-white">
 						<h3 class="text-xl font-semibold text-tertiary-400">{event.day}</h3>
+						{#if event.image}
+							<img src="{event.image}" alt="{event.location}" class=" mx-auto mt-2 rounded-lg"/>
+						{/if}
 						<p class="text-sm text-green-700">{event.date}</p>
 						<p class="font-semibold text-tertiary-400 mb-2">{event.time}</p>
 						<h4 class="text-lg font-semibold mb-2">{event.name}</h4>
@@ -111,6 +118,9 @@
 							<div class="relative">
 								<!-- Timeline dot -->
 								<div class="absolute left-1 top-1/2 transform -translate-y-1/2 -translate-x-1/2 w-6 h-6 rounded-full bg-green-400 border-4 border-green-700 shadow-md z-10"></div>
+								{#if event.image}
+									<img src="{event.image}" alt="{event.location}" class="w-4/5 mx-auto ml-6 rounded-lg border-4 border-green-700"/>
+								{/if}
 							</div>
 						</div>
 					{:else}
@@ -119,6 +129,9 @@
 							<div class="relative">
 								<!-- Timeline dot -->
 								<div class="absolute right-1 top-1/2 transform -translate-y-1/2 translate-x-1/2 w-6 h-6 rounded-full bg-green-400 border-4 border-green-700 shadow-md z-10"></div>
+								{#if event.image}
+									<img src="{event.image}" alt="{event.location}" class="w-4/5 mx-auto mr-6 rounded-lg border-4 border-green-700"/>
+								{/if}
 							</div>
 							<div class="text-left">
 								<div class="bg-green-700 rounded-lg shadow-md p-6 text-white">
