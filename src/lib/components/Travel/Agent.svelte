@@ -5,5 +5,5 @@
 </script>
 
 travel agent, {agentName} by
-<a href="mailto:{agentEmail}" class="underline text-tertiary-500 hover:text-tertiary-400">email</a>
+<a href="mailto:{agentEmail}" class="underline text-tertiary-500 hover:text-green-400">email</a>
 or phone ({agentPhone})

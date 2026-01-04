@@ -25,28 +25,18 @@
 
 <div class="flex flex-col justify-center items-center">
 	<div class="w-full max-w-2xl mx-auto mb-8">
-		<img src="/images/accommodations/dreams-tulum.webp" alt="Dreams Tulum" />
+		<img src="/images/accommodations/dreams-tulum.webp" alt="Dreams Tulum" class="rounded-lg border-2 border-green-700"/>
 	</div>
 
 	<div class="w-full max-w-4xl mx-auto mb-8 text-black text-center">
 		<h2 class="h2 p-6 md:text-4xl xs:text-md text-tertiary-400">Dreams Tulum</h2>
-		<p class="md:text-lg xs:text-md text-justify">
-			We have reserved a block of rooms at <strong>Dreams Tulum</strong> for our wedding guests.
-			Booking within this block ensures that you'll stay close to the wedding party and enjoy the
-			convenience of being in the heart of the celebration! To secure your spot in the room block,
-			please book by
-			<strong>April 15, 2025</strong> for our promotional rates. After this date, the block will be released,
-			and rooms will be subject to availability. You’re still welcome to book a room at the resort after
-			the deadline, but we cannot guarantee you'll stay near the wedding party.
-		</p>
-		<br />
 		<section class="grid grid-cols-1 md:grid-cols-2 gap-4">
 			{#each rooms as room}
-				<div class="card flex flex-col h-full">
-					<div class="card-header h-full w-full bg-primary-400 rounded-t-xl">
+				<div class="card flex flex-col h-full text-white">
+					<div class="card-header h-full w-full bg-green-700 rounded-t-xl">
 						<img src={room.image} alt={room.type} class="object-fit h-full w-full" />
 					</div>
-					<div class="card-body relative px-4 pb-4 bg-primary-400 rounded-b-xl">
+					<div class="card-body relative px-4 pb-4 bg-green-700 rounded-b-xl">
 						<h3 class="mt-4 md:text-lg xs:text-md">{room.type}</h3>
 						<ul class="list-disc pl-8 mt-2 text-left md:text-lg xs:text-md">
 							{#each room.description as info}
@@ -65,7 +55,7 @@
 			Complete the following <a
 				target="_blank"
 				href="https://withjoy.com/laurensmith-and-jasonkai/rsvp"
-				class="underline text-tertiary-500 hover:text-tertiary-400"
+				class="underline text-tertiary-500 hover:text-green-400"
 				rel="noopener noreferrer">form</a
 			> - which will be sent to our travel agent, who will reach out with a quote!
 		</p>

@@ -1,7 +1,7 @@
 <div class="flex flex-col text-center justify-center items-center">
 	<!-- Center image -->
 	<div class="w-full max-w-2xl mb-8">
-		<img src="/images/story/family.jpg" alt="Family trip to San Diego" class="w-4/5 mx-auto" />
+		<img src="/images/story/family.jpg" alt="Family trip to San Diego" class="w-4/5 mx-auto rounded-lg border-2 border-green-700" />
 	</div>
 
 	<div class="w-full max-w-4xl mx-auto mb-8 text-black">
