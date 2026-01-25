@@ -40,6 +40,16 @@
 			description: 'Enjoy an evening in a hidden garden filled with tropical plants, soft lighting, and a cozy, intimate feel.',
 			attire: 'Beach Cocktail',
 			image: '/images/schedule/secret_garden.jpg'
+		},
+		{
+			day: 'Monday',
+			date: 'April 20, 2026',
+			time: '1:30 PM',
+			name: 'Excursion',
+			location: 'In-Ha Reef',
+			description: 'Join us for a yacht and snorkeling excursion (transportation included).',
+			attire: 'Swimwear',
+			image: '/images/schedule/yacht.jpeg'
 		}
 	];
 </script>
