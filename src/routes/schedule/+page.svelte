@@ -12,6 +12,16 @@
 
     	const events: Event[] = [
 		{
+			day: 'Thursday',
+			date: 'April 16, 2026',
+			time: '7:00 PM',
+			name: 'Welcome Party',
+			location: 'Rectangular Pool Terrace',
+			description: 'An open-air terrace beside a glowing pool to start the celebrations.',
+			attire: 'Tropical / Hawaiian',
+			image: '/images/schedule/pool.jpg'
+		},
+		{
 			day: 'Saturday',
 			date: 'April 18, 2026',
 			time: '3:00 PM',
@@ -46,7 +56,7 @@
 			date: 'April 20, 2026',
 			time: '1:30 PM',
 			name: 'Excursion',
-			location: 'In-Ha Reef',
+			location: 'Inha Reef',
 			description: 'Join us for a yacht and snorkeling excursion (transportation included).',
 			attire: 'Swimwear',
 			image: '/images/schedule/yacht.jpeg'
