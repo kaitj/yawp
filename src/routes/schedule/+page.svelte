@@ -17,7 +17,7 @@
 			time: '7:00 PM',
 			name: 'Welcome Party',
 			location: 'Rectangular Pool Terrace',
-			description: 'An open-air terrace beside a glowing pool to start the celebrations.',
+			description: 'An open-air terrace beside a glowing pool to start the celebrations with hors d\'oeuvres.',
 			attire: 'Tropical / Hawaiian',
 			image: '/images/schedule/pool.jpg'
 		},
@@ -54,10 +54,10 @@
 		{
 			day: 'Monday',
 			date: 'April 20, 2026',
-			time: '1:30 PM',
+			time: '12:00 PM',
 			name: 'Excursion',
 			location: 'Inha Reef',
-			description: 'Join us for a yacht and snorkeling excursion (transportation included).',
+			description: 'Join us for a yacht and snorkeling excursion (transportation, food, and drinks included).',
 			attire: 'Swimwear',
 			image: '/images/schedule/yacht.jpeg'
 		}
@@ -180,12 +180,13 @@
 		{/each}
 	</div>
 
-	<!-- Additional Information
-	<div class="w-full max-w-4xl mx-auto mb-8 text-white px-6">
-		<div class="bg-green-700 rounded-lg p-6">
-			<h3 class="text-xl font-semibold mb-4 text-tertiary-400">Important Notes</h3>
+	<!-- Additional Information -->
+	<div class="w-full max-w-4xl mx-auto text-white px-6">
+		<div class="bg-green-700 rounded-lg p-2">
+			<h3 class="text-xl font-semibold mb-2 text-tertiary-400">Resort Map</h3>
 			<div class="text-left space-y-3 md:text-base xs:text-sm">
-				<p>
+				<img src="/images/schedule/map.webp" alt="resort map" class="w-full bg-white"/>
+				<!-- <p>
 					<strong>Attire Guidance:</strong> "Formal Beach Attire" means cocktail dresses, sundresses, 
 					or suits in light, breathable fabrics. Avoid stiletto heels as events will be on sand and grass.
 				</p>
@@ -196,8 +197,8 @@
 				<p>
 					<strong>Children:</strong> We love your little ones, but we've reserved this weekend as an 
 					adults-only celebration. We hope this allows you to relax and enjoy yourselves.
-				</p>
+				</p> -->
 			</div>
 		</div>
-	</div> -->
+	</div>
 </div>
