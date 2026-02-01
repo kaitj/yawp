@@ -18,7 +18,7 @@
 			name: 'Welcome Party',
 			location: 'Rectangular Pool Terrace',
 			description: 'An open-air terrace beside a glowing pool to start the celebrations with hors d\'oeuvres.',
-			attire: 'Tropical / Hawaiian',
+			attire: 'Tropical',
 			image: '/images/schedule/pool.jpg'
 		},
 		{
