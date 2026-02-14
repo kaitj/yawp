@@ -1,15 +1,15 @@
-import { writable } from 'svelte/store';
+import { writable } from "svelte/store"
 
-const isBrowser = typeof window !== 'undefined';
+const isBrowser = typeof window !== "undefined"
 
 const initialState = isBrowser
-	? JSON.parse(localStorage.getItem('authState') || '{"unlocked": false}')
-	: { unlocked: false };
+    ? JSON.parse(localStorage.getItem("authState") || '{"unlocked": false}')
+    : { unlocked: false }
 
-export const authStore = writable(initialState);
+export const authStore = writable(initialState)
 
 if (isBrowser) {
-	authStore.subscribe((value) => {
-		localStorage.setItem('authState', JSON.stringify(value));
-	});
+    authStore.subscribe(value => {
+        localStorage.setItem("authState", JSON.stringify(value))
+    })
 }

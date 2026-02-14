@@ -82,7 +82,7 @@
 		<!-- Vertical line (hidden on mobile) -->
 		<div class="hidden md:block absolute left-1/2 top-0 bottom-0 w-0.5 bg-green-700 transform -translate-x-1/2"></div>
 
-		{#each events as event, index}
+		{#each events as event, index (event.name)}
 			<div class="relative mb-12 md:mb-16">
 				<!-- Mobile layout (stacked) -->
 				<div class="md:hidden px-6">

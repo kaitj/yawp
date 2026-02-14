@@ -78,14 +78,14 @@
 
 		<!-- Desktop Grid -->
 		<div class="hidden md:grid md:grid-cols-2 mt-8 gap-x-12 gap-y-8">
-			{#each desktopSections as section}
+			{#each desktopSections as section (section.people)}
 				{@const colors = getColorClasses(section.colorClass)}
 				<div class="relative">
 					<h3 class="text-xl font-bold mb-4 {colors.header} relative h-14 flex items-center justify-center">
 						{section.title}
 					</h3>
 					<div class="space-y-4">
-						{#each section.people as person}
+						{#each section.people as person (person.name)}
 							<div class="flex items-center gap-4 bg-white rounded-2xl shadow-lg p-4 transform hover:scale-105 transition-transform duration-300 border-2 {colors.border}">
 								<div class="flex-shrink-0">
 									<div class="w-20 h-20 rounded-full overflow-hidden border-4 {colors.borderImg} shadow-md ring-4 {colors.ring}">
@@ -111,12 +111,12 @@
 
 		<!-- Mobile Layout -->
 		<div class="md:hidden space-y-12">
-			{#each mobileSections as section}
+			{#each mobileSections as section (section.people)}
 				{@const colors = getColorClasses(section.colorClass)}
 				<div class="relative">
 					<h3 class="text-xl font-bold mb-6 {colors.header} relative">{section.title}</h3>
 					<div class="space-y-4">
-						{#each section.people as person}
+						{#each section.people as person (person.name)}
 							<div class="flex items-center gap-4 bg-white rounded-2xl shadow-lg p-4 border-2 {colors.border}">
 								<div class="flex-shrink-0">
 									<div class="w-20 h-20 rounded-full overflow-hidden border-4 {colors.borderImg} shadow-md ring-2 {colors.ring}">

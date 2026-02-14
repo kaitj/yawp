@@ -37,7 +37,7 @@
 	<h1 class="h1 text-4xl md:text-5xl lg:text-6xl text-tertiary-400 text-center mb-4">Lauren & Jason</h1>
 	<nav class="text-tertiary-400 w-full">
 		<div class="flex flex-wrap items-center justify-center md:mt-8 gap-x-2 md:gap-x-3 lg:gap-x-6 gap-y-2 text-xs md:text-sm lg:text-base">
-			{#each tabs as tab}
+			{#each tabs as tab (tab.href)}
 				<a 
 					href={tab.href}
 					class="uppercase px-2 py-1 transition-colors {currentPath === tab.href ? 'text-green-700' : 'text-tertiary-400 hover:text-green-400'}"
@@ -52,7 +52,7 @@
 <!-- Mobile Navigation Menu -->
 {#if isMenuOpen}
 	<nav class="md:hidden flex flex-col p-2 rounded-lg space-y-2">
-		{#each tabs as tab}
+		{#each tabs as tab (tab.href)}
 			<a
 				href={tab.href}
 				class="block w-full text-center p-3 rounded-md uppercase {currentPath === tab.href ? 'text-tertiary-500' : 'text-tertiary-400'}"
