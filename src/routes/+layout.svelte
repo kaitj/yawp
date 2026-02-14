@@ -85,14 +85,15 @@
 <!-- Main content area -->
 <div class="relative flex items-center justify-center min-h-screen w-full">
 	{#if unlocked}
-		<div class="bg-sand-150/95 min-h-screen w-full p-4 md:p-6 lg:p-8 md:mx-auto md:w-4/5 lg:w-3/5">
-			<header class="top-0 z-10">
-				<Navbar />
-			</header>
-
-			<main class="flex-grow">
-				<slot />
-			</main>
+		<div class="bg-sand-150/95 min-h-screen w-full md:mx-auto md:w-4/5 lg:w-3/5">
+			<div class="p-4 md:p-6 lg:p-8">
+				<main class="flex-grow">
+					<header class="top-0 z-10">
+						<Navbar />
+					</header>
+					<slot />
+				</main>
+			</div>
 		</div>
 	{:else}
 		<div class="min-h-screen w-full p-4 md:p-6 lg:p-8 md:mx-auto md:w-4/5 lg:w-3/5">
