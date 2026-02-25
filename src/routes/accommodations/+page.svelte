@@ -50,14 +50,5 @@
 		<p class="text-left">
 			<em>*Room upgrades available, subject to availability</em>
 		</p>
-		<br />
-		<p class="md:text-lg xs:text-md text-justify">
-			Complete the following <a
-				target="_blank"
-				href="https://withjoy.com/laurensmith-and-jasonkai/rsvp"
-				class="underline text-tertiary-500 hover:text-green-400"
-				rel="noopener noreferrer">form</a
-			> - which will be sent to our travel agent, who will reach out with a quote!
-		</p>
 	</div>
 </div>
