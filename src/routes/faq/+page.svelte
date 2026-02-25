@@ -27,7 +27,7 @@
 		},
 		{
 			question: 'Is it okay to take photos during wedding?',
-			answer: "Feel free to capture and share photos throughout the celebration; we simply ask that the ceremony remain unplugged."
+			answer: "Feel free to capture and share photos throughout the celebrations, we simply ask that the ceremony remain unplugged."
 		}
 	];
 </script>
