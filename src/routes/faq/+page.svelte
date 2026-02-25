@@ -25,6 +25,10 @@
 			answer:
 				'We have arranged round-trip airport transfers for all our guests booking through our room block! Other travel arrangements can also be made through our <a href="mailto:sstirling@destinationweddings.com" class="underline text-tertiary-500 hover:text-green-400">travel agent</a> if you booked outside of the room block.'
 		},
+		{
+			question: 'Is it okay to take photos during wedding?',
+			answer: "Feel free to capture and share photos throughout the celebration; we simply ask that the ceremony remain unplugged."
+		}
 	];
 </script>
 
@@ -45,5 +49,15 @@
 				</li>
 			{/each}
 		</ul>
+
+		<p class="md:text-lg xs:text-md">
+		If you have more questions, please email us:
+			<a
+				href="mailto:lauren.jason.tietheknot@gmail.com"
+				class="underline text-tertiary-500 hover:text-green-400"
+			><br/>
+			lauren.jason.tietheknot@gmail.com
+			</a>
+			</p>
 	</div>
 </div>
