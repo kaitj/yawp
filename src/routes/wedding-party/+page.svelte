@@ -12,21 +12,21 @@
 	}
 
 	const bridal: Person[] = [
-		{ name: "Isabela Ozamiz", role: "Co-Matron of Honour" },
-		{ name: "Sara Santini", role: "Co-Maid of Honour" },
-		{ name: "Alexandra McDonald", role: "Bridesmaid" },
-		{ name: "Nikki Dehnashi", role: "Bridesmaid" },
-		{ name: "Samantha Ligotti", role: "Bridesmaid" },
-		{ name: "Jenna Rabaj", role: "Bridesmaid" },
-		{ name: "Katherine Sunley", role: "Bridesmaid" }
+		{ name: "Isabela Ozamiz", role: "Co-Matron of Honour", image: "/images/wedding-party/isabela_ozamiz.svg" },
+		{ name: "Sara Santini", role: "Co-Maid of Honour", image: "/images/wedding-party/sara_santini.svg" },
+		{ name: "Alexandra McDonald", role: "Bridesmaid", image: "images/wedding-party/alexandra_mcdonald.svg" },
+		{ name: "Nikki Dehnashi", role: "Bridesmaid", image: "/images/wedding-party/nikki_dehnashi.svg" },
+		{ name: "Samantha Ligotti", role: "Bridesmaid", image: "/images/wedding-party/samantha_ligotti.svg" },
+		{ name: "Jenna Rabaj", role: "Bridesmaid", image: "/images/wedding-party/jenna_rabaj.svg" },
+		{ name: "Katherine Sunley", role: "Bridesmaid", image: "/images/wedding-party/katie_sunley.svg" }
 	];
 
 	const groomsmen: Person[] = [
-		{ name: "Ryan Yee", role: "Best Man" },
-		{ name: "Curtis McDonald", role: "Groomsmen" },
-		{ name: "Ben MacNally", role: "Groomsman" },
-		{ name: "Geoffrey Ngo", role: "Groomsman" },
-		{ name: "Nick Simard", role: "Groomsman" }
+		{ name: "Ryan Yee", role: "Best Man", image: "/images/wedding-party/ryan_yee.svg" },
+		{ name: "Curtis McDonald", role: "Groomsmen", image: "/images/wedding-party/curtis_mcdonald.svg" },
+		{ name: "Ben MacNally", role: "Groomsman", image: "/images/wedding-party/ben_macnally.svg" },
+		{ name: "Geoffrey Ngo", role: "Groomsman", image: "/images/wedding-party/geoff_ngo.svg" },
+		{ name: "Nick Simard", role: "Groomsman", image: "/images/wedding-party/nick_simard.svg"  }
 	];
 
 	const bridalHonor = bridal.filter(p => p.role.includes('Honour'));
