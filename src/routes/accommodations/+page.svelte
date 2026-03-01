@@ -31,7 +31,7 @@
 	<div class="w-full max-w-4xl mx-auto mb-8 text-black text-center">
 		<h2 class="h2 p-6 md:text-4xl xs:text-md text-tertiary-400">Dreams Tulum</h2>
 		<section class="grid grid-cols-1 md:grid-cols-2 gap-4">
-			{#each rooms as room}
+			{#each rooms as room (room.type)}
 				<div class="card flex flex-col h-full text-white">
 					<div class="card-header h-full w-full bg-green-700 rounded-t-xl">
 						<img src={room.image} alt={room.type} class="object-fit h-full w-full" />
@@ -39,7 +39,7 @@
 					<div class="card-body relative px-4 pb-4 bg-green-700 rounded-b-xl">
 						<h3 class="mt-4 md:text-lg xs:text-md">{room.type}</h3>
 						<ul class="list-disc pl-8 mt-2 text-left md:text-lg xs:text-md">
-							{#each room.description as info}
+							{#each room.description as info (info)}
 								<li>{info}</li>
 							{/each}
 						</ul>

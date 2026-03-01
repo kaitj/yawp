@@ -53,7 +53,7 @@
 			April 18, 2026
 		</div>
 		<div class="flex gap-6 justify-center text-center">
-			{#each Object.entries(timeLeft) as [label, value]}
+			{#each Object.entries(timeLeft) as [label, value] (label)}
 				<div class="flex flex-col">
 					<span class="text-3xl md:text-4xl font-bold">
 						{String(value).padStart(2, '0')}

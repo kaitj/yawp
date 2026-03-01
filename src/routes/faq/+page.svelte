@@ -41,10 +41,11 @@
 	<div class="w-full max-w-4xl mx-auto mb-8 text-black">
 		<h2 class="h2 p-6 md:text-4xl xs:text-md text-tertiary-400">Have questions?</h2>
 		<ul class="text-left md:text-lg xs:text-md">
-			{#each faqs as faq}
+			{#each faqs as faq (faq.question)}
 				<li class="mb-6">
 					<strong class="text-green-700">{faq.question}</strong>
 					<br />
+					<!-- eslint-disable-next-line svelte/no-at-html-tags -->
 					{@html faq.answer}
 				</li>
 			{/each}
